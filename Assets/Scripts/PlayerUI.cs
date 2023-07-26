@@ -18,5 +18,4 @@ public class PlayerUI : MonoBehaviour
     {
         Item.OnItemCollected -= ItemUI;
     }
-
 }
