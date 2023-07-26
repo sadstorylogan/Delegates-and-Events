@@ -18,6 +18,4 @@ public class ItemManager : MonoBehaviour
     {
         Item.OnItemCollected -= ItemCollected;
     }
-
-
 }
