@@ -5,7 +5,7 @@ using UnityEngine;
 public class Delegates1 : MonoBehaviour
 {
     public delegate void TestDelegate();
-    public static TestDelegate testDelegateFunction;
+    public static  event TestDelegate testDelegateFunction;
     private void Start()
     {
         testDelegateFunction = MyFirstDelegateFunction;
